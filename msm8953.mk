@@ -128,8 +128,10 @@ PRODUCT_COPY_FILES += \
 
 # Binder
 PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhidltransport.vendor \
     libhwbinder \
-    libhidltransport
+    libhwbinder.vendor
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
