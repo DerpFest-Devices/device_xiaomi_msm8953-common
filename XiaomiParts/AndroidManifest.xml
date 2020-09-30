@@ -41,7 +41,7 @@
         <activity
             android:name=".DeviceSettingsActivity"
 	    android:exported="false"
-            android:icon="@drawable/ic_xiaomiparts"
+            android:icon="@drawable/ic_xiaomi_parts"
             android:label="@string/xiaomi_parts_title"
 	    android:launchMode="singleTask">
             <intent-filter>
@@ -76,7 +76,7 @@
         <service
             android:name=".xiaomiPartsTile"
             android:enabled="true"
-            android:icon="@drawable/ic_xiaomiparts"
+            android:icon="@drawable/qs_xiaomi"
             android:label="@string/xiaomi_parts_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
