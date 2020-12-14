@@ -5,3 +5,5 @@ allow init hwservicemanager:binder transfer;
 
 allow init hwservicemanager:binder call;
 allow init sysfs_leds:lnk_file read;
+
+allow init proc_last_kmsg:file setattr;
