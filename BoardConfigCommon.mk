@@ -197,7 +197,7 @@ TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab.recovery.qcom
 endif
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+include device/qcom/sepolicy-legacy-um/Sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
 # Wi-Fi
