@@ -50,7 +50,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 ifeq ($(TARGET_KERNEL_VERSION),4.9)
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := proton
+#TARGET_KERNEL_CLANG_VERSION := proton
 endif
 
 # ANT
