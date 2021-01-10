@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2017 The LineageOS Project
 #
@@ -24,8 +25,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msm8953
 
+
 # Blur
 TARGET_DISABLE_BLUR := true
+
 
 
 # Screen density
