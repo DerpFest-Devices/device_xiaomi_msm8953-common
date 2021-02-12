@@ -533,4 +533,7 @@
     
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
+<!-- Whether a software navigation bar should be shown. NOTE: in the future this maybe               
+         autodetected from the Configuration. -->                                                        
+    <bool name="config_showNavigationBar">true</bool>
 </resources>
