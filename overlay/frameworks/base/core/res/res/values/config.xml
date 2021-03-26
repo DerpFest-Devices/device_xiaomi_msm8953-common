@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2017 The LineageOS Project
@@ -533,7 +534,20 @@
     
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
+
 <!-- Whether a software navigation bar should be shown. NOTE: in the future this maybe               
          autodetected from the Configuration. -->                                                        
     <bool name="config_showNavigationBar">true</bool>
+
+     <!-- Blank Display After Doze -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <!-- Whether device supports sensor based doze customizations -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_dozePulseTilt">true</bool>
+    <bool name="config_dozePulseProximity">true</bool>
+
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
 </resources>
