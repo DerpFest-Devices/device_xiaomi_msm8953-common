@@ -548,6 +548,12 @@
     <bool name="config_dozePulseTilt">true</bool>
     <bool name="config_dozePulseProximity">true</bool>
 
+    <!-- Default value for proximity check on screen wake
+     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <integer name="config_proximityCheckTimeout">100</integer>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
 </resources>
