@@ -318,7 +318,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-
         <name>vendor.qti.esepowermanager</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
