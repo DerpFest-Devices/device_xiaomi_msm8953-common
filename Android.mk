@@ -24,7 +24,7 @@ include $(CLEAR_VARS)
 
 
 # Hal
-HAL_PATH := hardware/qcom-caf/msm8996
+HAL_PATH := hardware/qcom-caf/msm8996-los
 
 include $(call all-makefiles-under,$(HAL_PATH)/audio)
 
