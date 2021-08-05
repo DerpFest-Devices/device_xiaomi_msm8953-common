@@ -4,3 +4,6 @@ r_dir_file(system_server, vendor_keylayout_file);
 allow system_server vendor_file:file { read };
 allow system_server userspace_reboot_exported_prop:file { read };
 
+allow system_server vendor_file:file { open };
+allow system_server userspace_reboot_exported_prop:file { open };
+allow system_server sysfs:file { read };
